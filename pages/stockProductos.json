@@ -1,0 +1,63 @@
+[
+    {"id": 1, 
+    "nombre": "Bombay Sapp 750ml", 
+    "desc": "Gin", 
+    "valor": 6750, 
+    "imagen": "./imagenes/GIN-bombay.jpg", 
+    "cantidad": 1},
+    
+    {"id": 2, 
+    "nombre": "Tanqueray Lond 750ml", 
+    "desc": "Gin", "valor": 6670,
+    "imagen": "./imagenes/GIN-tanqueray.jpeg", 
+    "cantidad": 1},
+    
+    {"id": 3, 
+    "nombre": "Aconcagua Dry 750ml", 
+    "desc": "Gin", 
+    "valor": 3500, 
+    "imagen": "./imagenes/GIN-aconcagua.jpeg", 
+    "cantidad": 1},
+    
+    {"id": 4, 
+    "nombre": "Absolut 500ml", 
+    "desc": "Vodka", 
+    "valor": 3300, 
+    "imagen": "./imagenes/VODKA-absolut.jpg", 
+    "cantidad": 1},
+    
+    {"id": 5, 
+    "nombre": "Finlandia 750ml", 
+    "desc": "Vodka", 
+    "valor": 19300, 
+    "imagen": "./imagenes/VODKA-finlandia.jpg", 
+    "cantidad": 1},
+
+    {"id": 6, 
+    "nombre": "Smirnoff 700ml", 
+    "desc": "Vodka", 
+    "valor": 1820, 
+    "imagen": "./imagenes/VODKA-smirnoff.jpg", 
+    "cantidad": 1},
+    
+    {"id": 7, 
+    "nombre": "Jose Cuervo 750ml", 
+    "desc": "Tequila", 
+    "valor": 9500, 
+    "imagen": "./imagenes/TEQUILA-josecuervo.jpg", 
+    "cantidad": 1},
+    
+    {"id": 8, 
+    "nombre": "Don Julio 750ml", 
+    "desc": "Tequila", 
+    "valor": 53000, 
+    "imagen": "./imagenes/TEQUILA-donjulio.jpg", 
+    "cantidad": 1},
+    
+    {"id": 9, 
+    "nombre": "Silver Patrón 750ml", 
+    "desc": "Tequila",
+    "valor": 36000, 
+    "imagen": "./imagenes/TEQUILA-patron.jpg", 
+    "cantidad": 1}
+]

@@ -1,0 +1,428 @@
+.navbar-brand{
+    font-family: 'Roboto Flex', sans-serif, 700;
+    font-size: 30px;
+    color: rgb(207, 4, 207);
+}
+.nav-link{
+    font-family: 'Roboto Flex', sans-serif, 300;
+    font-size: 20px;
+    color: rgb(69, 61, 69);
+    margin-left:20px;
+}
+.logoInicio{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.fotoHome{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+.fotoIndex{
+    display: flex;
+    width: 400px;
+    height: 450px;
+    gap: 15px;
+    margin: 10px;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+}
+.textoIndex{
+    font-family: 'Roboto Flex', sans-serif, 700;
+    font-size: 60px;
+    color: rgb(69, 61, 69);
+    margin-left:20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer{
+    text-align: end;
+    align-items: end;
+    justify-content: end;
+    margin-top: 30px;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.fa-brands{
+    padding: 20px;
+}
+.footerLogo{
+    width: 25px;
+    height: 25px;
+}
+.footerImg{
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+}
+.footerTexto{
+    font-family: 'Roboto Flex', sans-serif, 300;
+    font-size: 20px;
+    color: rgb(69, 61, 69);
+    margin-left:20px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.footerRS{
+    margin-top: 30px;
+}
+.titulo{
+        font-family: 'Roboto Flex', sans-serif, 700;
+    font-size: 80px;
+    color: rgb(207, 4, 207);
+    margin-left:20px;
+    margin-top: 20px;
+text-align: center;
+}
+.contenidoFullDrinks{
+    font-family: 'Roboto Flex', sans-serif, 300;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(69, 61, 69);
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.fundadores{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+/* FORMULARIO */
+div h2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+div h3 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+div h4 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+@media (max-width: 700px) {
+    div h2 {
+    font-weight: 400;
+    font-size: 40px;
+    }
+    div h3 {
+    font-weight: 400;
+    font-size: 30px;
+    }
+    div h4 {
+    font-weight: 400;
+    font-size: 20px;
+    }
+}
+.formRegistro {
+    width: 400px;
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 7px 13px 37px #000;
+}
+@media (min-width: 375px) {
+    .formRegistro {
+    margin-top: 70px;
+    font-size: 10px;
+    width: 280px;
+    }
+}
+@media (min-width: 701px) {
+    .formRegistro {
+    width: 400px;
+    }
+}
+.formRegistro h3 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(207, 4, 207);
+    text-align: center;
+    margin-bottom: 25px;
+}
+.formRegistro input {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+@media (min-width: 375px) {
+    .formRegistro h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    }
+.formRegistro input {
+    font-size: 10px;
+    }
+}
+.entrada {
+    color: white;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 3px;
+    gap: 10px;
+    text-align: center;
+}
+@media (max-width: 700px) {
+    .entrada {
+    font-size: 10px;
+    }
+}
+.controles {
+    width: 100%;
+    margin: 5px;
+    padding: 3px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 4, 207);
+    font-size: 16px;
+}
+@media (max-width: 700px) {
+    .controles {
+    font-size: 10px;
+    }
+}
+.formRegistro .boton {
+    width: 100%;
+    background-color: rgb(207, 4, 207);
+    border-radius: 10px;
+    font-size: 16px;
+    align-content: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 8px;
+    color: black;
+    border: 5px solid rgb(207, 4, 207);
+    font-weight: 700;
+}
+@media (max-width: 700px) {
+    .formRegistro .boton {
+    font-size: 10px;
+    }
+}
+
+/* ESTILO DE CARTAS*/
+.containerProd{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    margin: 15px;
+}
+.card-title{
+    color: rgb(207, 4, 207);
+    font-size: 25px ;
+}
+.card-text{
+    color: rgb(69, 61, 69);
+    font-size: 30px;
+}
+.btn{
+    background-color: rgb(207, 4, 207);
+    color: #000;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+/* CARRITO DE COMPRAS*/
+
+.fa-sharp{
+    margin-right: 50px;
+}
+.productoCarrito{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productoDetalle{
+    font-weight: 700;
+}
+.totalCarrito{
+    display: flex;
+    justify-content: center;
+}
+.total{
+    color: rgb(69, 61, 69);
+}
+
+/* ALERTAS */
+.importante{
+    font-family: 'Roboto Flex', sans-serif;
+    color: red;
+}
+.compra{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: blue;
+}
+.imagenCarrito{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+/* VENTANA DE COMPRA */
+.styleCarro{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.styleNombre{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 30px;
+    text-align: center;
+}
+.ventanaCompra{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 15px 30px;
+    background-color: rgb(221, 164, 221);
+}
+.styleBoton{
+    text-align: end;
+    cursor: pointer;
+    display: end;
+    font-size: 40px;
+    color: #000;
+}
+.styleTitulo{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 900;
+    color: rgb(69, 61, 69);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.totalCompra{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 30px;
+    text-align: center;
+    color: black;
+}
+.imagenVentana{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    align-items: start;
+    justify-content:left;
+}
+.nombreVentana{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.precioVentana{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.precioVentana0{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.precioVentana1{
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.precioVentana2{
+    font-size: 50px;
+    margin-right:100px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.quitarProducto{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.verCarrito{
+    cursor: pointer;
+}
+.quitarProducto{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 900;
+    color: rgb(207, 4, 207);
+}
+#terminarCompra{
+    display: flex;
+}
+.terminarCompra{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    justify-content:center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+.terminarCompra:hover{
+    background-color: rgb(207, 4, 207);
+}
